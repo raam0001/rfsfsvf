@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /target/SampleMavenTomcatApp.war
     destination: /tmp/codedeploy-deployment-staging-area/
+    destination: /usr/local/tomcat7/webapps
   - source: /scripts/configure_http_port.xsl
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
