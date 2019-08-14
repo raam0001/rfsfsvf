@@ -8,5 +8,4 @@ sudo wget http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.43/bin/apac
 sudo tar -xvf apache-tomcat-8.5.43.tar.gz
 sudo mv apache-tomcat-8.5.43 /usr/local/tomcat7
 JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
-export $JAVA_HOME
 
